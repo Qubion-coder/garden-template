@@ -21,7 +21,7 @@ export default function StoryApp() {
   });
 
   useEffect(() => {
-    const weddingDate = new Date('2026-12-30T09:00:00').getTime();
+    const weddingDate = new Date('2027-03-15T09:30:00').getTime();
 
     const interval = setInterval(() => {
       const now = new Date().getTime();
@@ -183,17 +183,17 @@ export default function StoryApp() {
                 </h1>
 
                 <div className="flex flex-col items-center w-full mb-8 sm:mb-10">
-                  <p className="text-[13px] sm:text-[15px] uppercase tracking-widest text-[#063A2C] font-bold mb-2">DECEMBER</p>
+                  <p className="text-[13px] sm:text-[15px] uppercase tracking-widest text-[#063A2C] font-bold mb-2">MARCH</p>
                   <div className="flex items-center justify-center w-full gap-4">
                     <div className="flex-1 text-right border-y border-[#063A2C]/30 py-2">
-                      <p className="text-[12px] sm:text-sm uppercase tracking-widest text-[#063A2C] font-bold">WEDNESDAY</p>
+                      <p className="text-[12px] sm:text-sm uppercase tracking-widest text-[#063A2C] font-bold">SATURDAY</p>
                     </div>
-                    <p className="serif text-7xl sm:text-[4.5rem] font-medium text-[#063A2C] leading-none px-1">30</p>
+                    <p className="serif text-7xl sm:text-[4.5rem] font-medium text-[#063A2C] leading-none px-1">15</p>
                     <div className="flex-1 text-left border-y border-[#063A2C]/30 py-2">
-                      <p className="text-[12px] sm:text-sm uppercase tracking-widest text-[#063A2C] font-bold">AT 9:00 AM</p>
+                      <p className="text-[12px] sm:text-sm uppercase tracking-widest text-[#063A2C] font-bold">AT 9:30 AM</p>
                     </div>
                   </div>
-                  <p className="text-[13px] sm:text-[15px] uppercase tracking-widest text-[#063A2C] font-bold mt-2">2026</p>
+                  <p className="text-[13px] sm:text-[15px] uppercase tracking-widest text-[#063A2C] font-bold mt-2">2027</p>
                 </div>
 
                 <a
@@ -204,9 +204,9 @@ export default function StoryApp() {
                 >
                   <p className="text-[12px] sm:text-sm uppercase tracking-widest font-bold flex items-center justify-center gap-1.5">
                     <MapPin size={12} className="text-[#134F40]" />
-                    LIGNESS GREEN
+                    WATERS EDGE
                   </p>
-                  <p className="text-[11px] sm:text-[12px] uppercase tracking-[0.15em] font-medium">ODESSY</p>
+                  <p className="text-[11px] sm:text-[12px] uppercase tracking-[0.15em] font-medium">BATTARAMULLA</p>
                 </a>
 
                 <div className="mt-8 sm:mt-10">
@@ -247,7 +247,7 @@ export default function StoryApp() {
 
                   <div className="flex flex-col items-center w-full mb-8">
                     <p className="text-[11px] uppercase tracking-[0.2em] text-zinc-400 mb-3 font-bold">Bride's Parents</p>
-                    <div className="serif text-lg text-[#063A2C] leading-relaxed text-center">H H Chandrasena <br /> &amp; H T B Malkanthi</div>
+                    <div className="serif text-lg text-[#063A2C] leading-relaxed text-center">W A Sarath Kumara <br /> &amp; K P Nimalka Jayawardena</div>
                   </div>
 
                   {/* Elegant Divider */}
@@ -259,7 +259,7 @@ export default function StoryApp() {
 
                   <div className="flex flex-col items-center w-full">
                     <p className="text-[11px] uppercase tracking-[0.2em] text-zinc-400 mb-3 font-bold">Groom's Parents</p>
-                    <div className="serif text-lg text-[#063A2C] leading-relaxed text-center">K T Lalith Karunarathna <br /> &amp; M C Malavipathirana</div>
+                    <div className="serif text-lg text-[#063A2C] leading-relaxed text-center">R M Sunil Bandara <br /> &amp; H G Malini Dissanayake</div>
                   </div>
                 </div>
               </motion.div>
@@ -330,8 +330,8 @@ export default function StoryApp() {
               className="w-full h-[65dvh] shrink-0 relative"
             >
               <img
-                src="/PRE/pre-1.jpeg"
-                alt="Hiruni & Wageesh"
+                src="/PRE/pexels-samith-thilina-67119536-12135989.jpg"
+                alt="Sanduni & Tharindu"
                 className="w-full h-full object-cover object-top"
               />
               {/* Soft white gradient at the bottom to blend into the text section */}
@@ -345,11 +345,11 @@ export default function StoryApp() {
               className="flex-1 w-full flex flex-col items-center justify-start text-center pt-2 pb-12 z-20 bg-white"
             >
               <h2 className="serif text-6xl md:text-7xl text-[#063A2C] font-normal leading-none mt-4">
-                HIRUNI
+                SANDUNI
               </h2>
               <span className="script text-5xl md:text-6xl text-[#063A2C] my-1 opacity-80">and</span>
               <h2 className="serif text-6xl md:text-7xl text-[#063A2C] font-normal leading-none">
-                WAGEESH
+                THARINDU
               </h2>
             </motion.div>
           </div>
@@ -362,8 +362,8 @@ export default function StoryApp() {
             {/* Header Image */}
             <div className="w-full h-[45dvh] relative shrink-0">
               <img
-                src="/PRE/pre-3.jpeg"
-                alt="Our Story - Hiruni & Wageesh"
+                src="/PRE/pexels-akalanka-98-754758-27845836 (1).jpg"
+                alt="Our Story - Sanduni & Tharindu"
                 className="w-full h-full object-cover object-top rounded-b-[2.5rem] shadow-sm"
               />
               <div className="absolute bottom-0 left-0 w-full h-24 bg-gradient-to-t from-[#FFFFF0] to-transparent"></div>
@@ -377,39 +377,23 @@ export default function StoryApp() {
             >
               <h2 className="script text-5xl md:text-6xl text-[#D4AF37] mb-6">Our Story</h2>
 
-              <div className="space-y-6 text-[#063A2C] text-[14px] md:text-[15px] leading-relaxed font-serif px-2">
-                <p className="text-center font-medium text-[#134F40] text-[11px] uppercase tracking-widest mb-6">
+              <div className="space-y-6 text-[#063A2C] text-[16px] md:text-[18px] leading-relaxed font-serif px-2">
+                <p className="text-center font-medium text-[#134F40] text-[12px] md:text-[13px] uppercase tracking-widest mb-6">
                   A love story written in the stars
                 </p>
 
-                <p className="italic text-center text-[16px] leading-loose text-[#D4AF37]">
+                <p className="italic text-center text-[18px] md:text-[20px] leading-loose text-[#D4AF37]">
                   "Two souls destined to be one,<br/>two hearts forever entwined."
                 </p>
 
-                <div className="flex items-center justify-center gap-3 my-8 relative">
-                  <motion.div 
-                    initial={{ opacity: 0, x: -20 }}
-                    whileInView={{ opacity: 1, x: 0 }}
-                    transition={{ duration: 1 }}
-                    className="w-[120px] h-[160px] md:w-[140px] md:h-[180px] rounded-t-[3rem] rounded-bl-[3rem] overflow-hidden shadow-md border-4 border-white"
-                  >
-                    <img src="/PRE/pre-2.jpeg" alt="Story image 1" className="w-full h-full object-cover" />
-                  </motion.div>
-                  <motion.div 
-                    initial={{ opacity: 0, x: 20 }}
-                    whileInView={{ opacity: 1, x: 0 }}
-                    transition={{ duration: 1, delay: 0.2 }}
-                    className="w-[120px] h-[160px] md:w-[140px] md:h-[180px] rounded-b-[3rem] rounded-tr-[3rem] overflow-hidden shadow-md border-4 border-white mt-12"
-                  >
-                    <img src="/PRE/pre-4.jpeg" alt="Story image 2" className="w-full h-full object-cover" />
-                  </motion.div>
-                </div>
+
+
 
                 <p className="text-center mt-6">
                   What began as a beautiful connection has blossomed into a love story we cherish every day.
                 </p>
 
-                <p className="text-[#063A2C] font-bold text-center italic mt-8 text-[13px] tracking-wide">
+                <p className="text-[#063A2C] font-bold text-center italic mt-8 text-[14px] md:text-[15px] tracking-wide">
                   Join us as we begin our forever together.
                 </p>
               </div>
@@ -424,6 +408,82 @@ export default function StoryApp() {
         </section>
 
 
+
+        {/* --- SCREEN 3: Gallery --- */}
+        <section className="snap-section relative z-10 overflow-hidden">
+          <SectionBackground />
+          <div className="min-h-[100dvh] flex flex-col items-center p-4 sm:p-6 text-center ios-scroll">
+            <div className="w-full my-auto flex flex-col items-center justify-center py-8">
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 1 }}
+                className="mb-8 flex flex-col items-center"
+              >
+                <h3 className="script text-5xl text-[#D4AF37] mb-2">Moments</h3>
+                <h2 className="serif text-[13px] uppercase tracking-[0.3em] text-[#063A2C] font-bold mb-4">Our Gallery</h2>
+                <div className="flex items-center justify-center gap-3 w-32">
+                  <div className="h-px bg-[#C5A059] flex-1"></div>
+                  <div className="w-1.5 h-1.5 rotate-45 bg-[#D4AF37]"></div>
+                  <div className="h-px bg-[#C5A059] flex-1"></div>
+                </div>
+              </motion.div>
+
+              {/* Creative Masonry Gallery */}
+              <div className="w-full max-w-sm flex flex-col gap-3">
+                {/* Row 1: Full width hero */}
+                <motion.div
+                  initial={{ opacity: 0, scale: 0.95 }}
+                  whileInView={{ opacity: 1, scale: 1 }}
+                  transition={{ duration: 0.8 }}
+                  className="w-full h-[220px] rounded-[2rem] overflow-hidden relative group shadow-lg"
+                >
+                  <img src="/PRE/pexels-akalanka-98-754758-27824951.jpg" alt="Gallery 1" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
+                  <div className="absolute bottom-4 left-4 right-4">
+                    <p className="text-white text-[10px] uppercase tracking-[0.3em] font-bold drop-shadow-lg">Forever & Always</p>
+                  </div>
+                </motion.div>
+
+                {/* Row 2: Two symmetrical columns */}
+                <div className="flex gap-3">
+                  <motion.div
+                    initial={{ opacity: 0, x: -20 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    transition={{ duration: 0.8, delay: 0.1 }}
+                    className="flex-1 h-[280px] rounded-[1.5rem] overflow-hidden relative group shadow-lg"
+                  >
+                    <img src="/PRE/pexels-bonaventure-fernandez-744363-12130178.jpg" alt="Gallery 2" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
+                    <div className="absolute inset-0 bg-[#063A2C]/10 group-hover:bg-transparent transition-colors duration-500" />
+                  </motion.div>
+                  <motion.div
+                    initial={{ opacity: 0, x: 20 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    transition={{ duration: 0.8, delay: 0.2 }}
+                    className="flex-1 h-[280px] rounded-[1.5rem] overflow-hidden relative group shadow-lg"
+                  >
+                    <img src="/PRE/pexels-kanishkamg-14744473.jpg" alt="Gallery 3" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
+                    <div className="absolute inset-0 bg-[#063A2C]/10 group-hover:bg-transparent transition-colors duration-500" />
+                  </motion.div>
+                </div>
+
+                {/* Row 3: Full width with overlay text */}
+                <motion.div
+                  initial={{ opacity: 0, scale: 0.95 }}
+                  whileInView={{ opacity: 1, scale: 1 }}
+                  transition={{ duration: 0.8, delay: 0.4 }}
+                  className="w-full h-[180px] rounded-[2rem] overflow-hidden relative group shadow-lg"
+                >
+                  <img src="/PRE/pexels-kushan-perera-95408363-13952962.jpg" alt="Gallery 5" className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
+                  <div className="absolute inset-0 bg-gradient-to-r from-[#063A2C]/50 via-transparent to-[#063A2C]/50" />
+                  <div className="absolute inset-0 flex items-center justify-center">
+                    <p className="script text-white text-3xl drop-shadow-lg">Two hearts, one love</p>
+                  </div>
+                </motion.div>
+              </div>
+            </div>
+          </div>
+        </section>
 
         {/* --- SCREEN 4: Timeline --- */}
         <section className="snap-section relative z-10 overflow-hidden">
@@ -448,14 +508,10 @@ export default function StoryApp() {
                   <div className="absolute left-1/2 top-0 bottom-0 w-px bg-zinc-300 -translate-x-1/2" />
 
                   {[
-                    { time: "09:00 AM", title: "GUEST ARRIVAL" },
                     { time: "09:30 AM", title: "PORUWA CEREMONY" },
                     { time: "10:30 AM", title: "CAKE CUTTING" },
-                    { time: "10:45 AM", title: "MILK FOUNTAIN CEREMONY" },
-                    { time: "11:00 AM", title: "LIGHTING OF SHASHREEKA TABLE" },
                     { time: "12:30 PM", title: "LUNCH BUFFET" },
-                    { time: "01:30 PM", title: "TABLE VISITS & SOCIALIZING" },
-                    { time: "02:30 PM", title: "OPENING DANCE FLOOR" },
+                    { time: "02:30 PM", title: "ENTERTAINMENT" },
                     { time: "04:00 PM", title: "GOING AWAY" },
                   ].map((item, idx) => (
                     <div key={idx} className="relative z-10 bg-white/70 backdrop-blur-sm p-4 rounded-xl border border-white shadow-sm w-[85%] mx-auto">
@@ -486,15 +542,15 @@ export default function StoryApp() {
                   <h2 className="serif text-4xl tracking-[0.2em] text-[#063A2C] font-medium uppercase mb-6">Details</h2>
 
                   <div className="w-full h-32 rounded-xl overflow-hidden mb-4 relative">
-                    <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmw8wxjjWBU9zmus_naeWRc_vkAwHwXFhIAYf4BBkpTpu9kVQ3vXbVjUL0-Kj6jNkY92lrx-aQkCD8yye0FNXxwH5Nf4408vU5P7RJrhgmSDBm7ezeKu9bLqJlbjvPQtySmTN-47cOPykqA=s1360-w1360-h1020-rw" className="w-full h-full object-cover" alt="Ligness Green Odessy" />
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY2lXBKJQMVW7PYrcRh2wzJu0MBmgOIq4xHWht_SPx-fYyeLfrgvQzBUcv&s=10" className="w-full h-full object-cover" alt="Waters Edge Battaramulla" />
                   </div>
 
                   <div className="bg-[#C5A059] py-2 rounded-t-xl mb-1">
                     <p className="text-[12px] uppercase tracking-[0.2em] font-bold text-[#134F40]">Location</p>
                   </div>
                   <div className="bg-white py-4 rounded-b-xl shadow-sm border border-white mb-4 flex flex-col items-center">
-                    <p className="text-[12px] uppercase font-bold text-[#063A2C]">Ligness Green</p>
-                    <p className="text-[10px] uppercase tracking-widest text-zinc-500 mt-1">Odessy</p>
+                    <p className="text-[12px] uppercase font-bold text-[#063A2C]">Waters Edge</p>
+                    <p className="text-[10px] uppercase tracking-widest text-zinc-500 mt-1">Battaramulla</p>
                     <a
                       href="https://maps.app.goo.gl/DhaoyvZFQbyjCj2Z6?g_st=ic"
                       target="_blank"
@@ -533,7 +589,7 @@ export default function StoryApp() {
                 </div>
 
                 <p className="serif text-[13px] sm:text-[15px] uppercase tracking-[0.15em] font-bold text-[#063A2C] mb-6">
-                  BY DECEMBER 10, 2026
+                  BY FEBRUARY 25, 2027
                 </p>
 
                 <div className="w-full">
@@ -572,7 +628,7 @@ export default function StoryApp() {
                 </div>
               </motion.div>
               <p className="text-[#063A2C] text-xs mt-6 font-sans tracking-wider text-center px-4">
-                Want a beautiful wedding website like this? Create yours with <a target="_blank" rel="noreferrer" className="text-[#134F40] hover:text-[#D4AF37] underline font-bold transition-colors" href="https://wa.me/94707819074">invitemint</a>
+                Want a beautiful wedding website like this? Create yours with <a target="_blank" rel="noreferrer" className="text-[#134F40] hover:text-[#D4AF37] underline font-bold transition-colors" href="https://wa.me/94712345678">invitemint</a>
               </p>
             </div>
           </div>

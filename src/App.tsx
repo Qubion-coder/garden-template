@@ -315,7 +315,7 @@ function RSVPForm() {
       <p className="text-[12px] md:text-sm text-zinc-500 uppercase tracking-widest mb-4 md:mb-6 text-center leading-relaxed">
         Please let us know by
         <br />
-        December 10th, 2026
+        February 25th, 2027
       </p>
 
       <form onSubmit={submit} className="space-y-4 md:space-y-4 px-1 md:px-2">
@@ -537,10 +537,10 @@ export default function App() {
               className="absolute top-12 md:top-24 left-0 right-0 text-center z-10 pointer-events-none"
             >
               <h1 className="serif text-5xl md:text-7xl text-sage/80 font-light tracking-[0.2em] drop-shadow-xl">
-                Hiruni & Wageesh
+                Sanduni & Tharindu
               </h1>
               <p className="mt-3 text-[12px] md:text-sm uppercase tracking-[0.6em] text-sage/60 font-bold">
-                30 December 2026
+                15 March 2027
               </p>
             </motion.div>
 
@@ -756,7 +756,7 @@ export default function App() {
                           textAnchor="middle"
                           className="script text-[47px] font-bold fill-[url(#gold-grad)]"
                         >
-                          PR
+                          ST
                         </text>
                         {/* A thin shadow text to make it pop */}
                         <text
@@ -765,7 +765,7 @@ export default function App() {
                           textAnchor="middle"
                           className="script text-[47px] font-bold fill-black/10 select-none pointer-events-none"
                         >
-                          PR
+                          ST
                         </text>
                       </svg>
                     </motion.div>
@@ -846,7 +846,7 @@ export default function App() {
             <div className="absolute inset-x-0 top-1/2 -translate-y-1/2 h-32 bg-sage/5 blur-3xl rounded-full" />
 
             <motion.h2 whileHover={{ scale: 1.05 }} className="script text-[13vw] sm:text-7xl md:text-9xl text-sage drop-shadow-lg relative z-10 leading-none">
-              Hiruni
+              Sanduni
             </motion.h2>
 
             <div className="relative flex items-center justify-center shrink-0">
@@ -863,7 +863,7 @@ export default function App() {
             </div>
 
             <motion.h2 whileHover={{ scale: 1.05 }} className="script text-[13vw] sm:text-7xl md:text-9xl text-sage drop-shadow-lg relative z-10 leading-none">
-              Wageesh
+              Tharindu
             </motion.h2>
           </div>
 
@@ -932,7 +932,7 @@ export default function App() {
                 <div className="absolute top-0 bottom-0 right-0 w-px bg-white/8" />
                 <div className="absolute bottom-5 left-0 right-0 flex flex-col items-center gap-1 pointer-events-none">
                   <div className="w-16 h-px bg-sand/45" />
-                  <p className="serif italic text-sand/55 text-[12px] tracking-[0.4em] uppercase">Official Invite · 2026</p>
+                  <p className="serif italic text-sand/55 text-[12px] tracking-[0.4em] uppercase">Official Invite · 2027</p>
                   <div className="w-16 h-px bg-sand/45" />
                 </div>
               </div>
@@ -1036,19 +1036,19 @@ export default function App() {
                       transition={{ repeat: Infinity, duration: 3, ease: "easeInOut" }}
                       className="-mb-3 sm:-mb-2 md:mb-0"
                     >
-                      <img src="/images/logo.png" alt="P&R Logo" className="w-32 h-32 sm:w-36 sm:h-36 md:w-48 md:h-48 object-contain drop-shadow-md" />
+                      <img src="/images/logo.png" alt="S&T Logo" className="w-32 h-32 sm:w-36 sm:h-36 md:w-48 md:h-48 object-contain drop-shadow-md" />
                     </motion.div>
 
                     {/* hosting families */}
                     <div className="space-y-0.5">
                       <p className="text-[10px] sm:text-[11px] md:text-[13px] uppercase tracking-[0.3em] text-umber font-bold leading-relaxed">
-                        H H CHANDRASENA &amp; H T B MALKANTHI
+                        W A SARATH KUMARA &amp; K P NIMALKA JAYAWARDENA
                       </p>
                       <p className="text-[9px] sm:text-[10px] md:text-[11px] uppercase tracking-[0.25em] text-taupe font-medium">
                         TOGETHER WITH
                       </p>
                       <p className="text-[10px] sm:text-[11px] md:text-[13px] uppercase tracking-[0.3em] text-umber font-bold leading-relaxed">
-                        K T LALITH KARUNARATHNA &amp; M C MALAVIPATHIRANA
+                        R M SUNIL BANDARA &amp; H G MALINI DISSANAYAKE
                       </p>
                     </div>
 
@@ -1059,11 +1059,11 @@ export default function App() {
                     {/* couple names */}
                     <div className="flex flex-col md:flex-row items-center justify-center gap-1 md:gap-4 max-w-full px-2">
                       <span className="script text-[28px] sm:text-[34px] md:text-[50px] text-sage drop-shadow-sm leading-[1.1]">
-                        Hiruni
+                        Sanduni
                       </span>
                       <span className="text-taupe/50 text-base md:text-2xl font-serif">&amp;</span>
                       <span className="script text-[28px] sm:text-[34px] md:text-[50px] text-sage drop-shadow-sm leading-[1.1]">
-                        Wageesh
+                        Tharindu
                       </span>
                     </div>
 
@@ -1072,16 +1072,16 @@ export default function App() {
                       <div className="h-px flex-1 bg-sand/45" />
                       <div className="flex flex-col items-center gap-0.5">
                         <span className="text-[9px] sm:text-[10px] md:text-[11px] uppercase tracking-[0.3em] text-taupe font-bold">
-                          DECEMBER · WEDNESDAY
+                          MARCH · SATURDAY
                         </span>
                         <span className="serif text-[24px] sm:text-[30px] md:text-5xl text-umber font-medium leading-none">
-                          30
+                          15
                         </span>
                         <span className="text-[9px] sm:text-[10px] md:text-[11px] uppercase tracking-[0.25em] text-taupe font-bold">
-                          9:00 AM · 2026
+                          9:30 AM · 2027
                         </span>
                         <span className="mt-1 block max-w-[200px] px-2 text-[9px] sm:text-[9px] md:text-[10px] uppercase tracking-[0.12em] text-taupe/75 text-center leading-snug break-words">
-                          LIGNESS GREEN ODESSY
+                          WATERS EDGE, BATTARAMULLA
                         </span>
                       </div>
                       <div className="h-px flex-1 bg-sand/45" />
@@ -1155,9 +1155,9 @@ export default function App() {
                     </div>
 
                     <div className="flex flex-col items-center">
-                      <p className="text-[10px] md:text-sm uppercase tracking-[0.4em] text-zinc-400 font-black mb-1 md:mb-2">Wednesday</p>
+                      <p className="text-[10px] md:text-sm uppercase tracking-[0.4em] text-zinc-400 font-black mb-1 md:mb-2">Saturday</p>
                       <div className="relative inline-block px-6 md:px-8 py-1 md:py-2 border-y border-sage/30">
-                        <p className="serif text-6xl md:text-8xl font-medium text-sage leading-none">30</p>
+                        <p className="serif text-6xl md:text-8xl font-medium text-sage leading-none">15</p>
                         <motion.div
                           animate={{ opacity: [0.4, 1, 0.4] }}
                           transition={{ repeat: Infinity, duration: 2 }}
@@ -1166,12 +1166,12 @@ export default function App() {
                           <Sparkles size={12} className="md:w-4 md:h-4" />
                         </motion.div>
                       </div>
-                      <p className="serif text-base md:text-3xl font-light tracking-[0.2em] mt-2 md:mt-3">DECEMBER</p>
+                      <p className="serif text-base md:text-3xl font-light tracking-[0.2em] mt-2 md:mt-3">MARCH</p>
                     </div>
 
                     <div className="pt-1">
                       <p className="text-[9px] md:text-sm uppercase tracking-[0.4em] md:tracking-[0.5em] font-black text-sage/40">
-                        Twenty Twenty Six
+                        Twenty Twenty Seven
                       </p>
                     </div>
                   </div>
@@ -1184,7 +1184,7 @@ export default function App() {
                   <Heart size={20} className="text-sage mb-2 md:mb-6 mx-auto opacity-70 md:w-8 md:h-8" />
                   <p className="serif text-[16px] md:text-3xl italic text-sage mb-2 md:mb-4 leading-relaxed">Our wedding date</p>
                   <p className="text-[10px] md:text-sm text-zinc-500 uppercase tracking-widest leading-loose">
-                    Wednesday · 30 December 2026
+                    Saturday · 15 March 2027
                   </p>
                 </>
               }
@@ -1210,7 +1210,7 @@ export default function App() {
                       transition={{ repeat: Infinity, duration: 3, ease: "easeInOut" }}
                       className="group-hover:scale-110 transition-transform duration-500"
                     >
-                      <img src="/images/logo.png" alt="P&R Logo" className="w-64 h-64 sm:w-72 sm:h-72 md:w-80 md:h-80 object-contain drop-shadow-xl" />
+                      <img src="/images/logo.png" alt="S&T Logo" className="w-64 h-64 sm:w-72 sm:h-72 md:w-80 md:h-80 object-contain drop-shadow-xl" />
                     </motion.div>
                     <h3 className="serif text-3xl md:text-5xl tracking-[0.3em] font-medium text-sage">RSVP</h3>
                   </div>
@@ -1278,8 +1278,8 @@ export default function App() {
               front={
                 <div className="w-full h-full relative group">
                   <img
-                    src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmw8wxjjWBU9zmus_naeWRc_vkAwHwXFhIAYf4BBkpTpu9kVQ3vXbVjUL0-Kj6jNkY92lrx-aQkCD8yye0FNXxwH5Nf4408vU5P7RJrhgmSDBm7ezeKu9bLqJlbjvPQtySmTN-47cOPykqA=s1360-w1360-h1020-rw"
-                    alt="Ligness Green Odessy"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY2lXBKJQMVW7PYrcRh2wzJu0MBmgOIq4xHWht_SPx-fYyeLfrgvQzBUcv&s=10"
+                    alt="Waters Edge Battaramulla"
                     className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105"
                     referrerPolicy="no-referrer"
                   />
@@ -1290,9 +1290,9 @@ export default function App() {
                       The Location
                     </p>
                     <h3 className="serif text-3xl md:text-6xl text-sage leading-tight drop-shadow-sm font-medium">
-                      Ligness Green
+                      Waters Edge
                       <br />
-                      Odessy
+                      Battaramulla
                     </h3>
 
                     <motion.button
@@ -1308,18 +1308,18 @@ export default function App() {
 
                   <div className="absolute bottom-6 left-6 md:bottom-10 md:left-10 text-sage flex items-center gap-3 bg-white/60 backdrop-blur-md px-4 py-2 rounded-full border border-white/60 shadow-lg">
                     <MapPin className="text-sage animate-bounce" size={16} />
-                    <p className="serif text-[12px] md:text-base tracking-[0.2em] font-bold uppercase">Ligness Green Odessy</p>
+                    <p className="serif text-[12px] md:text-base tracking-[0.2em] font-bold uppercase">Waters Edge, Battaramulla</p>
                   </div>
                 </div>
               }
               back={
                 <>
                   <MapPin size={24} className="text-sage mb-4 md:mb-6 opacity-70 md:w-9 md:h-9" />
-                  <h4 className="serif text-3xl md:text-5xl text-sage mb-2 md:mb-4">Ligness Green</h4>
+                  <h4 className="serif text-3xl md:text-5xl text-sage mb-2 md:mb-4">Waters Edge</h4>
                   <p className="text-[12px] md:text-base text-zinc-500 uppercase tracking-widest leading-loose mb-4 md:mb-6">
-                    Ligness Green
+                    Waters Edge
                     <br />
-                    Odessy
+                    Battaramulla
                   </p>
                   <motion.button
                     whileHover={{ scale: 1.05 }}
@@ -1378,39 +1378,27 @@ export default function App() {
 
                   <div className="w-full max-w-sm space-y-4 md:space-y-6 text-left">
                     <div className="flex items-start gap-2 md:gap-4">
-                      <span className="serif text-sage font-bold text-[12px] md:text-lg w-12 md:w-20 text-right shrink-0 pt-1">7:45 AM</span>
-                      <div className="w-px h-full bg-sage/30 relative mt-2 -ml-[1px] md:-ml-2 shrink-0">
-                        <div className="absolute top-0 -left-[3px] w-2 h-2 rounded-full bg-sage" />
-                      </div>
-                      <div>
-                        <p className="text-[12px] md:text-sm font-bold uppercase tracking-wider">Guest Arrival</p>
-                      </div>
-                    </div>
-
-                    <div className="flex items-start gap-2 md:gap-4">
-                      <span className="serif text-sage font-bold text-[12px] md:text-lg w-12 md:w-20 text-right shrink-0 pt-1">8:15 AM</span>
+                      <span className="serif text-sage font-bold text-[12px] md:text-lg w-12 md:w-20 text-right shrink-0 pt-1">9:30 AM</span>
                       <div className="w-px h-full bg-sage/30 relative mt-2 -ml-[1px] md:-ml-2 shrink-0">
                         <div className="absolute top-0 -left-[3px] w-2 h-2 rounded-full bg-sage" />
                       </div>
                       <div>
                         <p className="text-[12px] md:text-sm font-bold uppercase tracking-wider">Poruwa Ceremony</p>
-                        <p className="serif text-[12px] md:text-sm italic text-zinc-500">King's Court</p>
                       </div>
                     </div>
 
                     <div className="flex items-start gap-2 md:gap-4">
-                      <span className="serif text-sage font-bold text-[12px] md:text-lg w-12 md:w-20 text-right shrink-0 pt-1">10:00 AM</span>
+                      <span className="serif text-sage font-bold text-[12px] md:text-lg w-12 md:w-20 text-right shrink-0 pt-1">10:30 AM</span>
                       <div className="w-px h-full bg-sage/30 relative mt-2 -ml-[1px] md:-ml-2 shrink-0">
                         <div className="absolute top-0 -left-[3px] w-2 h-2 rounded-full bg-sage" />
                       </div>
                       <div>
-                        <p className="text-[12px] md:text-sm font-bold uppercase tracking-wider">Wedding Reception</p>
-                        <p className="serif text-[12px] md:text-sm italic text-zinc-500">King's Court</p>
+                        <p className="text-[12px] md:text-sm font-bold uppercase tracking-wider">Cake Cutting</p>
                       </div>
                     </div>
 
                     <div className="flex items-start gap-2 md:gap-4">
-                      <span className="serif text-sage font-bold text-[12px] md:text-lg w-12 md:w-20 text-right shrink-0 pt-1">12:00 PM</span>
+                      <span className="serif text-sage font-bold text-[12px] md:text-lg w-12 md:w-20 text-right shrink-0 pt-1">12:30 PM</span>
                       <div className="w-px h-full bg-sage/30 relative mt-2 -ml-[1px] md:-ml-2 shrink-0">
                         <div className="absolute top-0 -left-[3px] w-2 h-2 rounded-full bg-sage" />
                       </div>
@@ -1420,7 +1408,7 @@ export default function App() {
                     </div>
 
                     <div className="flex items-start gap-2 md:gap-4">
-                      <span className="serif text-sage font-bold text-[12px] md:text-lg w-12 md:w-20 text-right shrink-0 pt-1">3:30 PM</span>
+                      <span className="serif text-sage font-bold text-[12px] md:text-lg w-12 md:w-20 text-right shrink-0 pt-1">4:00 PM</span>
                       <div className="w-px h-full bg-sage/30 relative mt-2 -ml-[1px] md:-ml-2 shrink-0">
                         <div className="absolute top-0 -left-[3px] w-2 h-2 rounded-full bg-sage" />
                       </div>
@@ -1449,25 +1437,77 @@ export default function App() {
         </motion.div>
 
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 md:gap-6">
-          {[1, 2, 3, 4, 5, 6, 7].map((index) => (
-            <motion.div
-              key={`pre-${index}`}
-              initial={{ opacity: 0, scale: 0.8 }}
-              whileInView={{ opacity: 1, scale: 1 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.8, delay: 0.1 + index * 0.1 }}
-              className="w-full"
-            >
-              <div className="w-full h-[250px] md:h-[350px] lg:h-[400px] rounded-[2rem] overflow-hidden relative group shadow-lg border border-white/20">
-                <img
-                  src={`/PRE/pre-${index}.jpeg`}
-                  alt={`Couple Image ${index}`}
-                  className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110"
-                />
-                <div className="absolute inset-0 bg-sage/10 group-hover:bg-transparent transition-colors duration-500" />
-              </div>
-            </motion.div>
-          ))}
+          {/* Hero image - spans 2 cols */}
+          <motion.div
+            initial={{ opacity: 0, scale: 0.8 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8, delay: 0.1 }}
+            className="w-full col-span-2"
+          >
+            <div className="w-full h-[300px] md:h-[400px] lg:h-[450px] rounded-[2rem] overflow-hidden relative group shadow-lg border border-white/20">
+              <img
+                src="/PRE/pexels-samith-thilina-67119536-12135989.jpg"
+                alt="Couple Photo 1"
+                className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent group-hover:from-transparent transition-all duration-500" />
+            </div>
+          </motion.div>
+
+          {/* Tall portrait */}
+          <motion.div
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8, delay: 0.2 }}
+            className="w-full col-span-1"
+          >
+            <div className="w-full h-[300px] md:h-[400px] lg:h-[450px] rounded-[2rem] overflow-hidden relative group shadow-lg border border-white/20">
+              <img
+                src="/PRE/pexels-bonaventure-fernandez-744363-12130178.jpg"
+                alt="Couple Photo 2"
+                className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110"
+              />
+              <div className="absolute inset-0 bg-sage/10 group-hover:bg-transparent transition-colors duration-500" />
+            </div>
+          </motion.div>
+
+          {/* Square-ish */}
+          <motion.div
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8, delay: 0.3 }}
+            className="w-full col-span-1"
+          >
+            <div className="w-full h-[300px] md:h-[400px] lg:h-[450px] rounded-[2rem] overflow-hidden relative group shadow-lg border border-white/20">
+              <img
+                src="/PRE/pexels-kanishkamg-14744473.jpg"
+                alt="Couple Photo 3"
+                className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110"
+              />
+              <div className="absolute inset-0 bg-sage/10 group-hover:bg-transparent transition-colors duration-500" />
+            </div>
+          </motion.div>
+
+          {/* Wide landscape - spans 2 cols on mobile, 4 on desktop */}
+          <motion.div
+            initial={{ opacity: 0, x: 40 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8, delay: 0.5 }}
+            className="w-full col-span-2 lg:col-span-4"
+          >
+            <div className="w-full h-[250px] md:h-[350px] lg:h-[400px] rounded-[2rem] overflow-hidden relative group shadow-lg border border-white/20">
+              <img
+                src="/PRE/pexels-kushan-perera-95408363-13952962.jpg"
+                alt="Couple Photo 5"
+                className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110"
+              />
+              <div className="absolute inset-0 bg-sage/10 group-hover:bg-transparent transition-colors duration-500" />
+            </div>
+          </motion.div>
         </div>
 
         <motion.footer
@@ -1478,14 +1518,14 @@ export default function App() {
         >
           <div className="flex items-center justify-center gap-6 text-sage/40">
             <div className="h-px w-16 bg-current" />
-            <span className="text-sm uppercase tracking-[0.6em] font-medium">Est. 2026</span>
+            <span className="text-sm uppercase tracking-[0.6em] font-medium">Est. 2027</span>
             <div className="h-px w-16 bg-current" />
           </div>
           <p className="serif italic text-zinc-500 text-2xl max-w-lg mx-auto leading-relaxed">
             "Love is not just something you feel, it's something you do."
           </p>
           <p className="serif text-sage/60 text-base italic">We can't wait to celebrate with you</p>
-          <p className="text-[#D4AF37] text-xs mt-2 font-sans tracking-wider">Want a beautiful wedding website like this? Create yours with <a target="_blank" rel="noreferrer" className="text-white hover:text-[#D4AF37] underline transition-colors duration-300" href="https://wa.me/94707819074">invitemint</a></p>
+          <p className="text-[#D4AF37] text-xs mt-2 font-sans tracking-wider">Want a beautiful wedding website like this? Create yours with <a target="_blank" rel="noreferrer" className="text-white hover:text-[#D4AF37] underline transition-colors duration-300" href="https://wa.me/94712345678">invitemint</a></p>
         </motion.footer>
       </motion.main>
 
